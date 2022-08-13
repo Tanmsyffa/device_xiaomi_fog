@@ -430,6 +430,9 @@ vendor/etc/libnfc-nxp.conf
 vendor/lib/libsn100u_fw.so
 vendor/lib64/libpn557_fw.so
 
+# Power-off charging daemon
+bin/charger:bin/chargeonlymode
+
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
