@@ -15,6 +15,7 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
 # Nad Stuff
+NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
