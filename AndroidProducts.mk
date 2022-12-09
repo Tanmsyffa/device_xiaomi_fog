@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_fog.mk
+    $(LOCAL_DIR)/yaap_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_fog-user \
-    evolution_fog-userdebug \
-    evolution_fog-eng
+    yaap_fog-user \
+    yaap_fog-userdebug \
+    yaap_fog-eng
